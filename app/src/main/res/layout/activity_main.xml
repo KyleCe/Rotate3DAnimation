@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="13dp"
+    tools:context="com.ce.tool.rotate3danimation.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:id="@+id/text_view_to_rotate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:padding="10dp"
+            android:textColor="@android:color/holo_green_light"
+            android:lines="4"
+            android:textSize="18sp"
+            android:background="@android:color/holo_blue_dark"
+            android:text="@string/default_text"/>
+
+        <Button
+            android:id="@+id/rotate_x"
+            android:layout_margin="10dp"
+            android:padding="3dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rotate x"
+            android:textAllCaps="false"
+            android:background="@android:color/holo_purple"
+            />
+        <Button
+            android:id="@+id/rotate_y"
+            android:layout_margin="10dp"
+            android:padding="3dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rotate y"
+            android:textAllCaps="false"
+            android:background="@android:color/holo_green_dark"
+            />
+        <Button
+            android:id="@+id/rotate_x_y"
+            android:layout_margin="10dp"
+            android:padding="3dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rotate x and y"
+            android:textAllCaps="false"
+            android:background="@android:color/holo_orange_light"
+            />
+    </LinearLayout>
+</FrameLayout>

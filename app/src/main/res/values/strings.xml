@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Rotate3DAnimation</string>
+    <string name="default_text">Hello World!\n\t\tRotate Me\n\t\t\t\t\tBoy\n\t\t\t\t\t\t\t\t\t Have fun!</string>
+    <string name="rotate_text">Hey handsome!\n\t\tYou\'ve rotated me\n\t\t\t\t\tFor Real\n\t\t\t\t\t\t\t\t\t Enjoy it!</string>
+</resources>
